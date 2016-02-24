@@ -1,0 +1,1888 @@
+New log file opened at Tue Feb 23 22:02:51 GMT 2016 by 6668@DESKTOP-7UG7O8D
+jvm 6668@DESKTOP-7UG7O8D
+jvm vmName=Java HotSpot(TM) Client VM vmVendor=Oracle Corporation vmVersion=25.66-b18
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\project, returning: (fyp-geo-tagging-service-build)
+Loading project definition from C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@26bc38, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service, returning: (fyp-geo-tagging-service)
+Set current project to FYP-Geo-Tagging-Service (in build file:/C:/Users/pc/dev/fyp/FYP-Geo-Tagging-Service/)
+Reapplying settings...
+Set current project to FYP-Geo-Tagging-Service (in build file:/C:/Users/pc/dev/fyp/FYP-Geo-Tagging-Service/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@112f4af, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 23-Feb-2016 22:02:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/pc/dev/fyp/FYP-Geo-Tagging-Service/}fyp-geo-tagging-service/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@138b586, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:02:55
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/pc/dev/fyp/FYP-Geo-Tagging-Service/}fyp-geo-tagging-service/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@a3f889, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:02:55
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/pc/dev/fyp/FYP-Geo-Tagging-Service/}fyp-geo-tagging-service/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@64fff5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:02:55
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@568f95, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:17:57
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1dae32e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:18:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1f2d7f6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:21:51
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@286151, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1106da8, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Read from stdout: C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala:14: not found: value BBDRetrieval
+C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala:14: not found: value BBDRetrieval
+Read from stdout: assert(BBDRetrieval.businessList().length >= 0)
+        assert(BBDRetrieval.businessList().length >= 0)
+Read from stdout: ^
+               ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 3 s, completed 23-Feb-2016 22:22:25
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@21a284, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:22:39
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1256626, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1ff4baa, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Read from stdout: C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala:14: ';' expected but ')' found.
+C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala:14: ';' expected but ')' found.
+Read from stdout: assertGTRetrievalService.getGeoTag(testAddress).length >= 0)
+        assertGTRetrievalService.getGeoTag(testAddress).length >= 0)
+Read from stdout: ^
+                                                                   ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 23-Feb-2016 22:22:43
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1b939f0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:23:09
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@18aaa3e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 24f3a, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Scala compilation took 1.834491849 s
+Invalidating C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+The C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala source file has the following implicit definitions changed:
+	convertToStringMustWrapper, convertToStringCanWrapper, convertToEqualizer, convertToInAndIgnoreMethodsAfterTaggedAs, shorthandSharedTestRegistrationFunction, unconstrainedEquality, convertToInAndIgnoreMethods, convertToStringShouldWrapper, shorthandTestRegistrationFunction.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@10c2867))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@1ee74d2))
+Running TaskDef(com.services.GTRetrievalServiceSpec, org.scalatest.tools.Framework$$anon$1@10c2867, false, [SuiteSelector])
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:23:15 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:23:16 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:23:16 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:23:16 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+Read from stdout: GTRetrievalServiceSpec:
+Read from stdout: Calling the Get Geo Tag function
+Read from stdout: - should return an object of type String
+Read from stdout: - should have a length greater or equal to 0
+Read from stdout: - should should return a valid JSON array
+GTRetrievalServiceSpec:
+Calling the Get Geo Tag function
+- should return an object of type String
+- should have a length greater or equal to 0
+- should should return a valid JSON array
+Read from stdout: Run completed in 1 second, 242 milliseconds.
+Read from stdout: Total number of tests run: 3
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 1 second, 242 milliseconds.
+Total number of tests run: 3
+Suites: completed 1, aborted 0
+Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Passed tests:
+	com.services.GTRetrievalServiceSpec
+Total time: 4 s, completed 23-Feb-2016 22:23:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@df9021, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:24:58
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@9a4c64, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:27:53
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@a47c4a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 6278fb, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Scala compilation took 1.128907369 s
+Invalidating C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+The C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala source file has the following regular definitions changed:
+	expectedCoordinates.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@a9f325))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@c4c60b))
+Running TaskDef(com.services.GTRetrievalServiceSpec, org.scalatest.tools.Framework$$anon$1@a9f325, false, [SuiteSelector])
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:27:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:27:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:27:59 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:27:59 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:27:59 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+Read from stdout: GTRetrievalServiceSpec:
+Read from stdout: Calling the Get Geo Tag function
+Read from stdout: - should return an object of type String
+Read from stdout: - should have a length greater or equal to 0
+Read from stdout: - should should return a valid JSON array
+Read from stdout: Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+Read from stdout: - should return the coordinates { lat:53.6122488, lng:-6.1976569 } *** FAILED ***
+Read from stdout: "{["lat":"53.6122488","lng":"-6.1976569"]}" did not equal "{[ lat:53.6122488, lng:-6.1976569 ]}" (GTRetrievalServiceSpec.scala:22)
+GTRetrievalServiceSpec:
+Calling the Get Geo Tag function
+- should return an object of type String
+- should have a length greater or equal to 0
+- should should return a valid JSON array
+Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+- should return the coordinates { lat:53.6122488, lng:-6.1976569 } *** FAILED ***
+  "{["lat":"53.6122488","lng":"-6.1976569"]}" did not equal "{[ lat:53.6122488, lng:-6.1976569 ]}" (GTRetrievalServiceSpec.scala:22)
+Read from stdout: Run completed in 951 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0
+Read from stdout: *** 1 TEST FAILED ***
+Run completed in 951 milliseconds.
+Total number of tests run: 4
+Suites: completed 1, aborted 0
+Tests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0
+*** 1 TEST FAILED ***
+Read from stdout: Failed tests:
+Failed tests:
+Read from stdout: 	com.services.GTRetrievalServiceSpec
+	com.services.GTRetrievalServiceSpec
+Read from stdout: (test:test) sbt.TestsFailedException: Tests unsuccessful
+(test:test) sbt.TestsFailedException: Tests unsuccessful
+Total time: 3 s, completed 23-Feb-2016 22:27:59
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@b204f6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:28:43
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1744318, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1c2929e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Read from stdout: C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala:8: ';' expected but string literal found.
+C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala:8: ';' expected but string literal found.
+Read from stdout: val expectedCoordinates = "{["lat":"53.6122488","lng":"-6.1976569"]}"
+    val expectedCoordinates = "{["lat":"53.6122488","lng":"-6.1976569"]}"
+Read from stdout: ^
+                                  ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 23-Feb-2016 22:28:51
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@bdbe6a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:29:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@2eb459, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1978d3e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Scala compilation took 1.026560745 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@969007))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@1e23b0f))
+Running TaskDef(com.services.GTRetrievalServiceSpec, org.scalatest.tools.Framework$$anon$1@969007, false, [SuiteSelector])
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:29:39 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:29:39 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:29:39 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:29:39 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:29:39 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+Read from stdout: GTRetrievalServiceSpec:
+Read from stdout: Calling the Get Geo Tag function
+Read from stdout: - should return an object of type String
+Read from stdout: - should have a length greater or equal to 0
+Read from stdout: - should should return a valid JSON array
+Read from stdout: Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+Read from stdout: - should return the coordinates lat:53.6122488, lng:-6.1976569 *** FAILED ***
+Read from stdout: "{["lat":"53.6122488","lng":"-6.1976569"]}" did not equal "{[["lat":"53.6122488","lng":"-6.1976569"]]}" (GTRetrievalServiceSpec.scala:22)
+GTRetrievalServiceSpec:
+Calling the Get Geo Tag function
+- should return an object of type String
+- should have a length greater or equal to 0
+- should should return a valid JSON array
+Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+- should return the coordinates lat:53.6122488, lng:-6.1976569 *** FAILED ***
+  "{["lat":"53.6122488","lng":"-6.1976569"]}" did not equal "{[["lat":"53.6122488","lng":"-6.1976569"]]}" (GTRetrievalServiceSpec.scala:22)
+Read from stdout: Run completed in 699 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0
+Read from stdout: *** 1 TEST FAILED ***
+Run completed in 699 milliseconds.
+Total number of tests run: 4
+Suites: completed 1, aborted 0
+Tests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0
+*** 1 TEST FAILED ***
+Read from stdout: Failed tests:
+Failed tests:
+Read from stdout: 	com.services.GTRetrievalServiceSpec
+	com.services.GTRetrievalServiceSpec
+Read from stdout: (test:test) sbt.TestsFailedException: Tests unsuccessful
+(test:test) sbt.TestsFailedException: Tests unsuccessful
+Total time: 2 s, completed 23-Feb-2016 22:29:39
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1acc917, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:31:21
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@11af6f1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 17a2ee6, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Scala compilation took 1.02705939 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@8f04e7))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@e49be0))
+Running TaskDef(com.services.GTRetrievalServiceSpec, org.scalatest.tools.Framework$$anon$1@8f04e7, false, [SuiteSelector])
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:31:26 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:31:26 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:31:26 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:31:26 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:31:26 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+Read from stdout: GTRetrievalServiceSpec:
+Read from stdout: Calling the Get Geo Tag function
+Read from stdout: - should return an object of type String
+Read from stdout: - should have a length greater or equal to 0
+Read from stdout: - should should return a valid JSON array
+Read from stdout: Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+Read from stdout: - should return the coordinates lat:53.6122488, lng:-6.1976569
+GTRetrievalServiceSpec:
+Calling the Get Geo Tag function
+- should return an object of type String
+- should have a length greater or equal to 0
+- should should return a valid JSON array
+Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+- should return the coordinates lat:53.6122488, lng:-6.1976569
+Read from stdout: Run completed in 717 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 717 milliseconds.
+Total number of tests run: 4
+Suites: completed 1, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Passed tests:
+	com.services.GTRetrievalServiceSpec
+Total time: 2 s, completed 23-Feb-2016 22:31:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@ac971e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:33:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1b7346, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 152183a, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Scala compilation took 1.285927441 s
+Invalidating C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala...
+Invalidating (transitively) by inheritance from C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala...
+Initial set of included nodes: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+The C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala source file has the following regular definitions changed:
+	expectedLat, expectedCoordinates, expectedLong.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@22e9d3))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@607e3f))
+Running TaskDef(com.services.GTRetrievalServiceSpec, org.scalatest.tools.Framework$$anon$1@22e9d3, false, [SuiteSelector])
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:30 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:30 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:30 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:30 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:30 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:30 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+Read from stdout: GTRetrievalServiceSpec:
+Read from stdout: Calling the Get Geo Tag function
+Read from stdout: - should return an object of type String
+Read from stdout: - should have a length greater or equal to 0
+Read from stdout: - should should return a valid JSON array
+Read from stdout: Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+Read from stdout: - should return the coordinates lat $expectedLat, lng:-$expectedLong
+GTRetrievalServiceSpec:
+Calling the Get Geo Tag function
+- should return an object of type String
+- should have a length greater or equal to 0
+- should should return a valid JSON array
+Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+- should return the coordinates lat $expectedLat, lng:-$expectedLong
+Read from stdout: Run completed in 786 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 786 milliseconds.
+Total number of tests run: 4
+Suites: completed 1, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Passed tests:
+	com.services.GTRetrievalServiceSpec
+Total time: 3 s, completed 23-Feb-2016 22:33:30
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4a8d15, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:33:52
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1ded6d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\services\GTRetrievalServiceSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1eb4cb0, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Scala compilation took 1.006370337 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@189ae5a))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@122f88e))
+Running TaskDef(com.services.GTRetrievalServiceSpec, org.scalatest.tools.Framework$$anon$1@189ae5a, false, [SuiteSelector])
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+[ SERVICE REQUEST LOG ] -----------------------------
+--> Request for service: [ Geo Tagging Service ] received 
+--> At Tue Feb 23 22:33:58 GMT 2016
+--> With query parameter: 19 Moylaragh Park Balbriggan Co Dublin
+--> Query parameter is an instance of String = true
+sun.net.www.protocol.https.DelegateHttpsURLConnection:https://maps.googleapis.com/maps/api/geocode/json?address=19+Moylaragh+Park+Balbriggan+Co+Dublin&key=AIzaSyCW6S4V0IgkgoXwsgZUtdTTNRzM2zPqe9E
+Read from stdout: GTRetrievalServiceSpec:
+Read from stdout: Calling the Get Geo Tag function
+Read from stdout: - should return an object of type String
+Read from stdout: - should have a length greater or equal to 0
+Read from stdout: - should should return a valid JSON array
+Read from stdout: Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+Read from stdout: - should return the coordinates lat 53.6122488, lng:--6.1976569
+GTRetrievalServiceSpec:
+Calling the Get Geo Tag function
+- should return an object of type String
+- should have a length greater or equal to 0
+- should should return a valid JSON array
+Given the address: 19 Moylaragh Park Balbriggan Co Dublin, the Get Geo Tag function
+- should return the coordinates lat 53.6122488, lng:--6.1976569
+Read from stdout: Run completed in 702 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 702 milliseconds.
+Total number of tests run: 4
+Suites: completed 1, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Passed tests:
+	com.services.GTRetrievalServiceSpec
+Total time: 2 s, completed 23-Feb-2016 22:33:58
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@845441, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:36:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e4cf3c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\main\scala\com\support\GTRetrievalHelper.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\main\scala\com\support\GTRetrievalHelper.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\main\scala\com\support\GTRetrievalHelper.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler cd2500, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.6.jar;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar
+Scala compilation took 1.010610527 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 23-Feb-2016 22:37:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d282ad, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:39:13
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1f606f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:46:13
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@18a0049, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 7a79f0, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Read from stdout: C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:19: Missing closing brace `}' assumed here
+C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:19: Missing closing brace `}' assumed here
+Read from stdout: val json = parse("""
+val json = parse("""
+Read from stdout: ^
+^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 23-Feb-2016 22:46:19
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1fe91b7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:48:32
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@113fa33, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1015600, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Read from stdout: C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:116: Missing closing brace `}' assumed here
+C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:116: Missing closing brace `}' assumed here
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 23-Feb-2016 22:48:40
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@201bc1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:49:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e2a318, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1b9676e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Read from stdout: C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:84: '}' expected but eof found.
+C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:84: '}' expected but eof found.
+Read from stdout: """)
+       """)
+Read from stdout: ^
+           ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 23-Feb-2016 22:49:12
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3f4191, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:51:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@162cb42, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Compiling 1 Scala source to C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler e488ce, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files (x86)\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_66\classes;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\test-classes;C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\target\scala-2.11\classes;C:\Users\pc\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\pc\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\pc\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\pc\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.10.jar;C:\Users\pc\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.0.jar;C:\Users\pc\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\pc\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-3.0-M1.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.11\jars\scala-logging-slf4j_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.11\jars\scala-logging-api_2.11-2.1.2.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.2.jar;C:\Users\pc\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.2.jar;C:\Users\pc\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.0.0.jar;C:\Users\pc\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\pc\.ivy2\cache\org.slf4j\slf4j-nop\jars\slf4j-nop-1.6.4.jar;C:\Users\pc\.ivy2\cache\io.spray\spray-testkit_2.11\jars\spray-testkit_2.11-1.3.3.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\pc\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.4.jar;C:\Users\pc\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\pc\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.5.jar
+Read from stdout: C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:99: '}' expected but eof found.
+C:\Users\pc\dev\fyp\FYP-Geo-Tagging-Service\src\test\scala\com\support\GTRetrievalHelperSpec.scala:99: '}' expected but eof found.
+Read from stdout: //   """)
+    //   """)
+Read from stdout: ^
+             ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 23-Feb-2016 22:51:41
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@139a289, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 23-Feb-2016 22:52:38
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 6668@DESKTOP-7UG7O8D logs at Tue Feb 23 23:08:51 GMT 2016, goodbye.
