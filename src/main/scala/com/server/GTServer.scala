@@ -37,7 +37,27 @@ object GTServer extends App with SimpleRoutingApp with CORSSupport{
       cors{
         path("geoTaggings" / "addresses" / Segment) { address =>
           complete {
-            GTRetrievalService.getGeoTag(address)
+            GTRetrievalService.getGeoTags_single(address)
+          }
+        }
+      }
+  }
+  
+  lazy val getGeoLatRoute = getJson {
+      cors{
+        path("geoTaggings" / "addresses" / "latitudes" / Segment) { address =>
+          complete {
+            GTRetrievalService.getGeoLats_single(address)
+          }
+        }
+      }
+  }
+  
+  lazy val getGeoLngtRoute = getJson {
+      cors{
+        path("geoTaggings" / "addresses" / "longitudes" / Segment) { address =>
+          complete {
+            GTRetrievalService.getGeoLngs_single(address)
           }
         }
       }
@@ -45,7 +65,9 @@ object GTServer extends App with SimpleRoutingApp with CORSSupport{
 
   startServer(interface = "localhost", port = 8082) {
     helloRoute~
-    getGeoTagRoute
+    getGeoTagRoute~
+    getGeoLatRoute~
+    getGeoLngtRoute
   }
 
 }
