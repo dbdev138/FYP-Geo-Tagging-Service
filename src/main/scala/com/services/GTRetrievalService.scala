@@ -46,7 +46,7 @@ object GTRetrievalService {
             //Parse out long
             val lng = GTRetrievalHelper.getLongitude(json)
             //Convert to a GeoCords Object
-            val geoCords = List[GeoCords](GeoCords("$lat","$lng"))
+            val geoCords = List[GeoCords](GeoCords(s"$lat",s"$lng"))
             //Convert back to json before return
             val jsonString = write(geoCords)
             
